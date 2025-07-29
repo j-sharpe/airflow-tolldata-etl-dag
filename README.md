@@ -1,1 +1,2 @@
 # airflow-tolldata-etl-dag
+An Airflow workflow created to extract data from files of different formats (e.g. .csv, .tsv, fixed_width .txt) stored in a .tgz file, consolidate the data in a new .csv file, and perform transformations on a subset of the consolidated data. The tasks in this dag are defined using bash commands and the BashOperator provided by Airflow. The workflow is scheduled to run once each day and can be triggered manually at anytime. 
