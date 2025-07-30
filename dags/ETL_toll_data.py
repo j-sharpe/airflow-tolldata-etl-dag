@@ -7,7 +7,7 @@ default_args = {
     'owner': 'Dummy Name',
     'start_date': days_ago(0),
     'email': ['Dummy Email'],
-    'email_on_failuer': True,
+    'email_on_failure': True,
     'email_on_retry': True,
     'retries': 1,
     'retry_delay': timedelta(minutes=5)
